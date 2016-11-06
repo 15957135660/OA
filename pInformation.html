@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>个人信息</title>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+<header>
+    <div class="header-main layer">
+        <div class="logo"></div>
+        <ul class="header-nav clearfix">
+            <li><a href="">首页</a></li>
+            <li><a href="">考勤</a></li>
+            <li><a href="">消息中心</a><i class="h-i"></i></li>
+            <li><a href="">采购</a></li>
+            <li><a href="">审批管理</a></li>
+        </ul>
+        <div class="weather">
+            <i></i>
+            <span>杭州37℃  2015年7月30日 星期四</span>
+            <dl class="personalMessage ">
+                <dt class="J_select"><img src="images/personalImg.jpg" alt=""/><em></em></dt>
+                <dd class="header-list J_header-list">
+                    <ul>
+                        <li><a href="##"><b class="b1"></b>我的资料</a></li>
+                        <li><a href="##"><b class="b2"></b>修改密码</a></li>
+                        <li><a href="##"><b class="b3"></b>个人设备</a></li>
+                        <li><a href="##"><b class="b4"></b>我的报销</a></li>
+                        <li><a href="##"><b class="b5"></b>我的考勤</a></li>
+                        <li class="quitButton">退出</li>
+                    </ul>
+                </dd>
+            </dl>
+        </div>
+    </div>
+</header>
+<section class="notice-main">
+    <h3>个人资料<span class="n-line"></span></h3>
+    <div class="personalMain">
+        <ul class="p-m-left">
+            <li> <span>当前头像:</span><img src="images/pIImg.jpg" alt=""/> </li>
+            <li>
+                <span>姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名:</span>
+                <input type="text"/>
+            </li>
+            <li>
+                <span>身&nbsp;&nbsp;份&nbsp;&nbsp;证:</span>
+                <input type="text"/>
+            </li>
+            <li><span>性&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;别:</span><i>女</i></li>
+            <li><span>籍&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;贯:</span><i>上海</i></li>
+            <li><span>生&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;日:</span><i>1989年2月28日</i></li>
+            <li><span>居&nbsp;&nbsp;住&nbsp;&nbsp;地:</span><i>嘉诺撒圣心商学院</i></li>
+            <li><span>家&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;乡:</span><i>上海市</i></li>
+            <li>
+                <span>爱&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;好:</span>
+                <input type="text" class="p-m-right-text"/>
+            </li>
+        </ul>
+        <ul class="p-m-right">
+            <li>
+                <span>微&nbsp;&nbsp;信&nbsp;&nbsp;号:</span>
+                <input type="text" class="p-m-right-text"/>
+            </li>
+            <li>
+                <span>支&nbsp;&nbsp;付&nbsp;&nbsp;宝:</span>
+                <input type="text" class="p-m-right-text"/>
+            </li>
+            <li>
+                <span>旺&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;旺:</span>
+                <input type="text" class="p-m-right-text"/>
+            </li>
+            <li>
+                <span>Q&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Q:</span>
+                <input type="text" class="p-m-right-text"/>
+            </li>
+            <li>
+                <span>邮&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;箱:</span>
+                <input type="text" class="p-m-right-text"/>
+            </li>
+            <li>
+                <span>分&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;机:</span>
+                <input type="text" class="p-m-right-text"/>
+            </li>
+            <li>
+                <span>职&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;务:</span>
+                <select class="p-r-sel1">
+                    <option value=""></option>
+                </select>
+            </li>
+            <li>
+                <span>部&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;门:</span>
+                <select class="p-r-sel1">
+                    <option value=""></option>
+                </select>
+            </li>
+            <li>
+                <span>入职时间:</span>
+                <select name="sel1" id="sel1">
+                    <option value="year"></option>
+                </select>
+                <em>年</em>
+                <select name="sel2" id="sel2">
+                    <option value="month"></option>
+                </select>
+                <em>月</em>
+                <select name="sel3" id="sel3">
+                    <option value="day"></option>
+                </select>
+                <em>日</em>
+            </li>
+            <li>
+                <span>转正时间:</span>
+                <select name="sel4" id="sel4">
+                    <option value="year"></option>
+                </select>
+                <em>年</em>
+                <select name="sel5" id="sel5">
+                    <option value="month"></option>
+                </select>
+                <em>月</em>
+                <select name="sel6" id="sel6">
+                    <option value="day"></option>
+                </select>
+                <em>日</em>
+            </li>
+        </ul>
+        <div>
+            <input type="submit" class="p-m-submit"/>
+        </div>
+    </div>
+</section>
+<script>
+    (function() {
+        if (!
+            /*@cc_on!@*/
+                0) return;
+        var e = "abbr, article, aside, audio, canvas, datalist, details, dialog, eventsource, figure, footer, header, hgroup, mark, menu, meter, nav, output, progress, section, time, video".split(', ');
+        var i= e.length;
+        while (i--){
+            document.createElement(e[i])
+        }
+    })()
+</script>
+<script data-main="js/pInformation.js?v=1.0.1" src="js/lib/require.min.js"></script>
+</body>
+</html>
